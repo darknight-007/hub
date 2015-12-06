@@ -1,5 +1,8 @@
 from django.http import HttpResponse
-
+import urllib2
+import simplejson
 
 def index(request):
-    return HttpResponse("Yes.")
+
+    html_str = 'Winter sucks.'
+    return HttpResponse(html_str)
