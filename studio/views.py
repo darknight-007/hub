@@ -1,6 +1,5 @@
 from django.http import HttpResponse
-import urllib2
-import simplejson
+
 
 def index(request):
 
